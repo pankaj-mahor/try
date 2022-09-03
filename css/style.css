@@ -176,7 +176,7 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
-.learnWeb3 p {
+.learnWeb3 .sub-para {
     margin: 1.5rem 0;
     font-weight: 500;
     font-size: 1.5rem;
@@ -381,6 +381,8 @@ footer ul li.active a {
 
 .f-list li {
     color: var(--text-on-light);
+    text-align: left;
+    margin: 0.3rem 0;
 }
 
 .list-2 ul li {
@@ -438,4 +440,21 @@ footer ul li.active a {
 
 .card.not-round .dsc {
     margin: 1rem 0;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.grid-3 {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 3rem;
+}
+
+p.desc {
+    text-align: left;
 }
