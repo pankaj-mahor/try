@@ -1,0 +1,145 @@
+@media (max-width:982px) {
+
+
+    .head-main {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:792px) {
+
+    nav {
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 0.5rem;
+
+    }
+
+    nav .logo {
+        margin-bottom: 1.2rem;
+    }
+
+    nav ul li a {
+        color: var(--white);
+        font-size: 0.85rem;
+        padding: 0rem;
+        transition: none;
+    }
+
+    nav ul li a:hover {
+        font-size: unset;
+    }
+
+    .type-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .type-text p {
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .platform-section {
+        width: 150px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+    }
+
+    .platform-section img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 0rem;
+        margin-right: 0.5rem;
+    }
+
+    .learnWeb3 h1 {
+        font-size: 1.5rem;
+    }
+
+    .learnWeb3 p {
+        font-size: 1rem;
+    }
+
+    .ready-to-go .head-main {
+        font-size: 2rem;
+        margin: 1rem 0 2rem 0;
+        color: #333;
+    }
+
+    .contribute-earn .dfac {
+        flex-direction: column;
+    }
+
+    .contribute-earn .text-side {
+        margin-bottom: 2rem;
+    }
+
+    .contribute-earn>div {
+        max-width: 90%;
+        margin: 1rem auto;
+    }
+
+    .contribute-earn h1 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    footer ul {
+        flex-wrap: wrap;
+    }
+
+    footer ul li {
+
+        margin: 0.5rem 0.5rem;
+    }
+
+    /* POlkadot */
+    .polka-hero-section {
+        padding: 1rem;
+    }
+
+    .hero-grid {
+        display: grid;
+        align-content: center;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-grid .hero-text {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .where-to-start {}
+
+    .where-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .where-grid>div {
+        padding: 1rem;
+
+    }
+
+    .heading {
+        font-size: 1.8rem;
+    }
+
+    .list-2 ul li {
+        display: flex;
+        align-items: flex-start;
+        margin: 0.8rem 0;
+        line-height: 1.5;
+    }
+
+    .card-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.2rem;
+    }
+}
