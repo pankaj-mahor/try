@@ -1,6 +1,10 @@
 @media (max-width:1052px) {
     .grid-details {
-        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.5rem;
+    }
+
+    .grid-details-reverse {
         grid-template-columns: 1fr;
         grid-gap: 1.5rem;
     }
@@ -17,6 +21,24 @@
         background: #fff;
 
         overflow: auto;
+    }
+
+    .sidebar-left {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 350px;
+        padding: 1.2rem;
+        height: 100vh;
+        background: #fff;
+
+        overflow: auto;
+    }
+
+    .sidebar-left.active {
+        display: block;
     }
 
     .sidebar-right.active {

@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Css files -->
+        <link rel="stylesheet" href="./css/comp.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/mobile.css" />
+
+        <title>Figment</title>
+    </head>
+    <body>
+        <!-- nav -->
+        <div class="inner-container">
+            <nav>
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./images/logo.svg" alt="logo" id="logo" />
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li><a href="./protocol.html">Protocols</a></li>
+                    <li><a href="./course.html">Courses</a></li>
+                    <li><a href="./community.html">Community Tutorials</a></li>
+                    <li><a href="#" target="_blank">Discord</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section class="tut-page">
+            <div class="inner-container">
+                <p class="text-center text-on-light big-p">Ready to build?</p>
+                <h1 class="heading text-center">
+                    Browse our community tutorials
+                </h1>
+            </div>
+        </section>
+
+        <section class="tut-page">
+            <div class="inner-container">
+                <div class="grid-details-reverse">
+                    <div class="show-detail-button text-center">
+                        <button onclick="showRight('sidebar-left' , 'active')">
+                            Show Table Contents
+                        </button>
+                    </div>
+
+                    <div class="sidebar-left">
+                        <div class="dfac">
+                            <h4 class="table-of-content">Protocol</h4>
+                            <p
+                                class="hide-on-pc"
+                                onclick="hideSidebar('sidebar-left' , 'active')"
+                            >
+                                X
+                            </p>
+                        </div>
+
+                        <div class="checkbox-lists">
+                            <div class="default">
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Avalanche"
+                                        name="Avalanche"
+                                        value="Bike"
+                                    />
+                                    <label for="Avalanche"> Avalanche</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="celo"
+                                        name="celo"
+                                        value="Bike"
+                                    />
+                                    <label for="celo"> Celo</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Ceremic"
+                                        name="Ceremic"
+                                        value="Bike"
+                                    />
+                                    <label for="Ceremic"> Ceremic</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Cosmos"
+                                        name="Cosmos"
+                                        value="Bike"
+                                    />
+                                    <label for="Cosmos"> Cosmos</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Mina"
+                                        name="Mina"
+                                        value="Bike"
+                                    />
+                                    <label for="Mina"> Mina</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Near"
+                                        name="Near"
+                                        value="Bike"
+                                    />
+                                    <label for="Near"> Near</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Oasis"
+                                        name="Oasis"
+                                        value="Bike"
+                                    />
+                                    <label for="Oasis"> Oasis</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Polkadot"
+                                        name="Polkadot"
+                                        value="Bike"
+                                    />
+                                    <label for="Polkadot"> Polkadot</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Polygon"
+                                        name="Polygon"
+                                        value="Bike"
+                                    />
+                                    <label for="Polygon"> Polygon</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Polygon"
+                                        name="Polygon"
+                                        value="Bike"
+                                    />
+                                    <label for="Polygon"> Polygon</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Pyth"
+                                        name="Pyth"
+                                        value="Bike"
+                                    />
+                                    <label for="Pyth"> Pyth</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Secret"
+                                        name="Secret"
+                                        value="Bike"
+                                    />
+                                    <label for="Secret"> Secret</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Solana"
+                                        name="Solana"
+                                        value="Bike"
+                                    />
+                                    <label for="Solana"> Solana</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Tezos"
+                                        name="Tezos"
+                                        value="Bike"
+                                    />
+                                    <label for="Tezos"> Tezos</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="TheGraph"
+                                        name="TheGraph"
+                                        value="Bike"
+                                    />
+                                    <label for="TheGraph"> The Graph</label>
+                                </div>
+                            </div>
+
+                            <h4>Difficulty</h4>
+                            <div class="default">
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Beginner"
+                                        name="Beginner"
+                                        value="Bike"
+                                    />
+                                    <label for="Beginner"> Beginner</label>
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Intermediate"
+                                        name="Intermediate"
+                                        value="Bike"
+                                    />
+                                    <label for="Intermediate">
+                                        Intermediate</label
+                                    >
+                                </div>
+                                <div class="group-check">
+                                    <input
+                                        type="checkbox"
+                                        id="Advanced"
+                                        name="Advanced"
+                                        value="Bike"
+                                    />
+                                    <label for="Advanced"> Advanced</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explain">
+                        <div class="card-section">
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/solana.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    Explaining Solana with The Simpsons
+                                </p>
+                                <div class="pills">
+                                    <div class="pill green">Beginner</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn about the technical innovations of
+                                    Solana with pop culture icons The Simpsons
+                                </p>
+                            </a>
+
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/solana.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    Make a Solana Explorer clone using React
+                                </p>
+                                <div class="pills">
+                                    <div class="pill yellow">Intermediate</div>
+                                    <div class="pill grey">React</div>
+                                    <div class="pill grey">Javascript</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn how to build a clone of the Solana
+                                    Explorer to display information about blocks
+                                    and transactions using React
+                                </p>
+                            </a>
+
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/polygon.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    Building a 3D art gallery using Unity3D and
+                                    Nethereum
+                                </p>
+                                <div class="pills">
+                                    <div class="pill orange">Advanced</div>
+                                    <div class="pill grey">Smart contract</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn how to make your own art gallery in
+                                    Unity3D and interact with Polygon using C#
+                                </p>
+                            </a>
+
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/near.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    Build a Crowdfunding dApp on NEAR
+                                </p>
+                                <div class="pills">
+                                    <div class="pill yellow">Intermediate</div>
+                                    <div class="pill grey">React</div>
+                                    <div class="pill grey">Rust</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn how to build a crowdfunding dApp on
+                                    the NEAR blockchain with Rust and React
+                                </p>
+                            </a>
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/thegraph.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    The Journey of a Subgraph Query
+                                </p>
+                                <div class="pills">
+                                    <div class="pill green">Beginner</div>
+                                    <div class="pill grey">Smart contract</div>
+                                    <div class="pill grey">GraphQL</div>
+                                    <div class="pill grey">Javascript</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn about how subgraph queries are
+                                    performed and how they travel through the
+                                    Graph Protocol
+                                </p>
+                            </a>
+
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/avalanche.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    Create an Automated Market Maker (AMM) on
+                                    Avalanche
+                                </p>
+                                <div class="pills">
+                                    <div class="pill yellow">Intermediate</div>
+                                    <div class="pill grey">React</div>
+                                    <div class="pill grey">Solidity</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn how to build a basic AMM with Provide,
+                                    Withdraw and Swap functions
+                                </p>
+                            </a>
+
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/solana.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    Explaining Solana with The Simpsons
+                                </p>
+                                <div class="pills">
+                                    <div class="pill green">Beginner</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn about the technical innovations of
+                                    Solana with pop culture icons The Simpsons
+                                </p>
+                            </a>
+
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/solana.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    Make a Solana Explorer clone using React
+                                </p>
+                                <div class="pills">
+                                    <div class="pill yellow">Intermediate</div>
+                                    <div class="pill grey">React</div>
+                                    <div class="pill grey">Javascript</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn how to build a clone of the Solana
+                                    Explorer to display information about blocks
+                                    and transactions using React
+                                </p>
+                            </a>
+
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/polygon.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    Building a 3D art gallery using Unity3D and
+                                    Nethereum
+                                </p>
+                                <div class="pills">
+                                    <div class="pill orange">Advanced</div>
+                                    <div class="pill grey">Smart contract</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn how to make your own art gallery in
+                                    Unity3D and interact with Polygon using C#
+                                </p>
+                            </a>
+
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/near.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    Build a Crowdfunding dApp on NEAR
+                                </p>
+                                <div class="pills">
+                                    <div class="pill yellow">Intermediate</div>
+                                    <div class="pill grey">React</div>
+                                    <div class="pill grey">Rust</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn how to build a crowdfunding dApp on
+                                    the NEAR blockchain with Rust and React
+                                </p>
+                            </a>
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/thegraph.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    The Journey of a Subgraph Query
+                                </p>
+                                <div class="pills">
+                                    <div class="pill green">Beginner</div>
+                                    <div class="pill grey">Smart contract</div>
+                                    <div class="pill grey">GraphQL</div>
+                                    <div class="pill grey">Javascript</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn about how subgraph queries are
+                                    performed and how they travel through the
+                                    Graph Protocol
+                                </p>
+                            </a>
+
+                            <a href="tut-detail.html" class="card">
+                                <div class="dfac">
+                                    <p class="light-text uppercase">
+                                        <small>TUTORIAL</small>
+                                    </p>
+                                    <img
+                                        src="./images/avalanche.svg"
+                                        alt="solana"
+                                        id="icon"
+                                    />
+                                </div>
+                                <p class="head">
+                                    Create an Automated Market Maker (AMM) on
+                                    Avalanche
+                                </p>
+                                <div class="pills">
+                                    <div class="pill yellow">Intermediate</div>
+                                    <div class="pill grey">React</div>
+                                    <div class="pill grey">Solidity</div>
+                                </div>
+
+                                <p class="desc">
+                                    Learn how to build a basic AMM with Provide,
+                                    Withdraw and Swap functions
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="text-center">
+                <div class="logo">
+                    <img src="./images/logo.svg" alt="logo" />
+                </div>
+
+                <ul>
+                    <li class="active"><a href="#">Figment</a></li>
+                    <li class=""><a href="#">Terms of Use</a></li>
+                    <li class=""><a href="#">Privacy Policy</a></li>
+                    <li class=""><a href="#">Contributor Terms</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
