@@ -116,5 +116,47 @@ a.card .head {
     margin-bottom: -0.2rem;
     cursor: pointer;
     color: #333;
+}
 
+#ter {
+    background: #fff;
+}
+
+.max-50 {
+    max-width: 50rem;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+.left-bordered {
+    margin: 2rem 0;
+    border-left: 5px solid rgb(82, 82, 82);
+    padding-left: 1.5rem;
+}
+
+.topic-tut {
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.topic-tut a {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    color: #555;
+    font-weight: 500;
+}
+
+#small-icon {
+    margin-right: 0.5rem;
+    width: 20px;
+    height: 20px;
+}
+
+.sub-process {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    color: #555;
 }
