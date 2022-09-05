@@ -458,3 +458,100 @@ footer ul li.active a {
 p.desc {
     text-align: left;
 }
+
+.tut-page {
+    padding: 3rem 1rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.grid-details {
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.table-of-content {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.sidebar-right {
+    position: sticky;
+    top: 0;
+    padding: 1.2rem;
+    height: 100vh;
+    overflow: auto;
+}
+
+.show-detail-button {
+    display: none;
+}
+
+.show-detail-button button {
+    /* display: none; */
+    cursor: pointer;
+
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+}
+
+.head-detail {
+    margin: 1.5rem 0;
+    font-size: 2rem;
+}
+
+.detail {
+    line-height: 1.9;
+    margin: 0.7rem 0;
+}
+
+.image-view {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.orderd {
+    list-style: decimal;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.orderd li {
+    list-style: decimal;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+
+.detail.bold {
+    font-weight: bold;
+}
+
+.detail a {
+    color: #E2C221;
+
+}
+
+.list-detail {
+    padding: 2rem 1rem;
+}
+
+.list-detail a {
+    color: #000;
+    display: block;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+
+.list-detail a:hover {
+    text-decoration: underline;
+}
+
+.sub-list {
+    margin-left: 1.2rem;
+}
+
+.hide-on-pc {
+    display: none;
+}

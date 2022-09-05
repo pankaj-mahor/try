@@ -40,3 +40,15 @@ function deleting(textIndex, text) {
         }
     }, sPerChar * 1000); 
 }
+
+
+//show the sidebar
+function showRight(toshow , classAdd) {
+    var sideBArright = document.querySelector('.' + toshow)
+    sideBArright.classList.add(classAdd)
+}
+//hide the sidebar
+function hideSidebar(tohide , classAdd) {
+    var sideBArright = document.querySelector('.' + tohide)
+    sideBArright.classList.remove(classAdd)
+}
