@@ -67,6 +67,22 @@
                         </div>
 
                         <div class="checkbox-lists">
+                            <div class="dfjb">
+                                <p
+                                    href="#"
+                                    class="select-all"
+                                    onclick="selectAll()"
+                                >
+                                    Select All
+                                </p>
+                                <p
+                                    href="#"
+                                    class="deselect-all"
+                                    onclick="deselectAll()"
+                                >
+                                    Deselect All
+                                </p>
+                            </div>
                             <div class="default">
                                 <div class="group-check">
                                     <input
@@ -575,5 +591,32 @@
             </div>
         </footer>
         <script src="./js/main.js"></script>
+
+        <script>
+            const inputsCheckbox = document.querySelectorAll(
+                "input[type=checkbox]"
+            );
+            const inputsCheckboxChecked =
+                document.querySelectorAll("input:checked");
+            // alert(inputsCheckbox)
+            console.log(inputsCheckbox);
+
+            // if (inputsCheckboxChecked === 0) {
+            //     console.log("No checked");
+            // } else {
+            //     console.log(inputsCheckboxChecked.length + "checked");
+            // }
+            function selectAll() {
+                inputsCheckbox.forEach((input) => {
+                    input.checked = true;
+                });
+            }
+
+            function deselectAll() {
+                inputsCheckbox.forEach((input) => {
+                    input.checked = false;
+                });
+            }
+        </script>
     </body>
 </html>

@@ -52,3 +52,4 @@ function hideSidebar(tohide , classAdd) {
     var sideBArright = document.querySelector('.' + tohide)
     sideBArright.classList.remove(classAdd)
 }
+

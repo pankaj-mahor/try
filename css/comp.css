@@ -109,3 +109,12 @@ a.card .head {
     color: rgb(101, 108, 116);
     line-height: 1.5;
 }
+
+.select-all,
+.deselect-all {
+    margin-top: 0.5rem;
+    margin-bottom: -0.2rem;
+    cursor: pointer;
+    color: #333;
+
+}
