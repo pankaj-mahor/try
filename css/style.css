@@ -347,6 +347,16 @@ footer ul li.active a {
 .pink-box {
     background-color: var(--polka-bg);
     padding: 1.5rem;
+    display: block;
+    text-decoration: none;
+}
+
+.pink-box:hover {
+    filter: brightness(105%);
+}
+
+a.pink-box {
+    text-decoration: none !important;
 }
 
 .pink-box h2 {
@@ -452,7 +462,8 @@ footer ul li.active a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1.5rem;
 }
-.grid-2 a{
+
+.grid-2 a {
     color: #000;
 }
 
@@ -592,6 +603,6 @@ p.desc {
 }
 
 /*  */
-.card:hover{
-    filter: brightness(93%);
+.card:hover {
+    background: #f1f1f1;
 }
