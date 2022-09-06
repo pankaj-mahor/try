@@ -606,3 +606,7 @@ p.desc {
 .card:hover {
     background: #f1f1f1;
 }
+
+a {
+    color: #000;
+}
