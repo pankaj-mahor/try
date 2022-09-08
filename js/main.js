@@ -10,6 +10,8 @@ var textIndex = 0;
 typing(textIndex, textArr[textIndex]); 
 
 function typing(textIndex, text) {
+    // var span = document.querySelector(".typewriter span");
+
     var charIndex = 0; 
     var maxCharIndex = text.length - 1; 
     
